@@ -6,7 +6,7 @@ jobs:
   Issue:
     runs-on: ubuntu-latest
     steps:
-      - name: Github event
-        run: echo ${{github.event_name}}
       - name: Github event name
         run: echo ${{github.event_name}}
+      - name: Github event
+        run: echo ${{github.event}}
