@@ -1,7 +1,7 @@
-name: Issues Workflow
+name: Handling Issues
 on:  issues
 jobs:
-  Issue:
+  Event-name:
     runs-on: ubuntu-latest
     steps:
       - name: Github event
